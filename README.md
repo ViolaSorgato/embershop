@@ -1,7 +1,20 @@
 # embershop
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This app is an exercise to practice a new framework, and I chose Ember.js.
+It is part of a tutorial available on (https://emberjs.com/).
+For practical reasons, I kept most of the original content and style.
+Here you find everything you need in order to install the app.
+
+Filerna som jag har skapat är:
+ * index.hbs
+ * index.js (i routes)
+ * about.hbs
+ * contact.hbs
+ * jumbo.hbs
+ * nav-bar.hbs
+ Komponent rental, som innehåller: 
+ * rental.js och rental.hbs
+ * image.js och image.hbs
 
 ## Prerequisites
 
@@ -14,38 +27,22 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/ViolaSorgato/embershop.git`
 * `cd embershop`
 * `npm install`
 
 ## Running / Development
 
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+* Visit your app at [http://localhost:4201](http://localhost:4201).
+* Visit your tests at [http://localhost:4201/tests](http://localhost:4201/tests).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
 * `ember test`
 * `ember test --server`
 
-### Linting
-
-* `npm run lint`
-* `npm run lint:fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 

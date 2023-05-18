@@ -1,3 +1,6 @@
+{{!Här har vi skapat en enkel if sats som kör toggle metoden.
+Metoden fungerar i kombination med decorators som finns i image.js}}
+
 <button type="button" class="image {{if this.isLarge "large"}}" {{on "click" this.toggleSize}}>
   <img ...attributes>
   {{#if this.isLarge}}

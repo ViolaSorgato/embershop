@@ -1,3 +1,5 @@
+/**Detta var redan inbyggd i installationen*/
+
 import EmberRouter from '@ember/routing/router';
 import config from 'embershop/config/environment';
 

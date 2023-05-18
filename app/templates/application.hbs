@@ -1,0 +1,9 @@
+{{!Denna sida har ingen URL, den används för att rendera ut gemensam innehåll
+som ska visas på allmänna sidor (i vårat fall en navbar men vi skulle kunna lägga till tex en footer)}}
+
+<div class="container">
+  <NavBar />
+  <div class="body">
+    {{outlet}}   {{!Outlet fungerar ungefär som yield}}
+  </div>
+</div>
