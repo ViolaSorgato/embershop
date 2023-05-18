@@ -1,5 +1,10 @@
-<div class="jumbo">
-  <div class="right tomster"></div>
+{{!Först och främst lägger vi till våra komponenter: NavBar och Jumbo.
+Två detaljer när det gäller NavBar, för det första, det är en självstängande tag,
+för det andra, den är skriven med PascalCase, som är typisk av Ember}}
+
+<NavBar />
+<Jumbo>
   <h2>Welcome to Ember Shop!</h2>
   <p>We don't sell objects, we sell dreams!</p>
-</div>
+  <LinkTo @route="about" class="button">About Us</LinkTo> {{!Detta länkar sidorna}}
+</Jumbo>
